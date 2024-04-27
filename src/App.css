@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.toast {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 1em;
+  background: #333;
+  color: white;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #000;
+}
+
+.toast-success {
+  background: #0f0;
+}
+
+.toast-error {
+  background: #f00;
+}
+
+.toast-warning {
+  background: #ff0;
+}
+
+.toast-info {
+  background: #00f;
+}
+
+.toast-position-top {
+  top: 1em;
+  bottom: auto;
+}
+
+.toast-position-bottom {
+  top: auto;
+  bottom: 1em;
+}
+
+.toast-align-left {
+  left: 1em;
+  right: auto;
+}
+
+.toast-align-right {
+  left: auto;
+  right: 1em;
+}
+
+.toast-align-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
